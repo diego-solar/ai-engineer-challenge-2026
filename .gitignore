@@ -1,0 +1,30 @@
+﻿
+# Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local data and database files
+data/*
+!README.md
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+
+# Local logs and model files
+logs/
+outputs/
+models/
+*.gguf
+*.safetensors
